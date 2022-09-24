@@ -13,7 +13,7 @@ timeout = 60
 
 username = ''
 password = ''
-topic = "subscriber"
+topic = "nodered"
 
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
